@@ -18,6 +18,13 @@ const tools = [
     href: "/word-counter",
     icon: FileText,
   },
+  {
+    name: "JSON Formatter",
+    description:
+      "Format, validate and minify JSON online — instantly.",
+    href: "/json-formatter",
+    icon: FileText,
+  }
 ];
 
 const values = [
