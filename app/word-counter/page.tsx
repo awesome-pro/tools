@@ -4,9 +4,8 @@ export default function WordCounterPage() {
   return (
     <div className="min-h-screen bg-background">
       <div className="mx-auto max-w-3xl px-4 py-8 sm:py-14">
-        {/* Header — SSR */}
         <div className="mb-8 text-center">
-          <h1 className="text-2xl font-bold tracking-tight sm:text-3xl">
+          <h1 className="text-2xl md:text-4xl font-bold tracking-tight sm:text-3xl">
             Word Counter
           </h1>
           <p className="mt-2 text-sm text-muted-foreground">
@@ -14,11 +13,9 @@ export default function WordCounterPage() {
           </p>
         </div>
 
-        {/* Interactive Tool — Client Component */}
         <WordCounterTool />
 
-        {/* SEO Content Section — SSR */}
-        <section className="mt-14 space-y-8">
+        <section className="space-y-8">
           <div>
             <h2 className="text-lg font-semibold tracking-tight sm:text-xl">
               Free Online Word Counter

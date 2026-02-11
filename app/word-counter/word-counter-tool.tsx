@@ -85,7 +85,7 @@ export default function WordCounterTool() {
   ];
 
   return (
-    <>
+    <section className="min-h-screen">
       {/* Stat Cards */}
       <div className="mb-5 grid grid-cols-2 gap-3 sm:grid-cols-4">
         {statCards.map(({ label, value, icon: Icon }) => (
@@ -94,7 +94,7 @@ export default function WordCounterTool() {
             className="flex flex-col items-center gap-1 rounded-xl border bg-card p-4 shadow-sm transition-colors"
           >
             <Icon className="h-4 w-4 text-muted-foreground" />
-            <span className="text-2xl font-semibold tabular-nums">
+            <span className="text-2xl md:text-5xl font-semibold tabular-nums">
               {value}
             </span>
             <span className="text-xs text-muted-foreground">{label}</span>
@@ -151,6 +151,6 @@ export default function WordCounterTool() {
           Clear
         </Button>
       </div>
-    </>
+    </section>
   );
 }
