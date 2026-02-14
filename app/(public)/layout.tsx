@@ -4,11 +4,13 @@ import React from 'react'
 
 const PublicLayout = ({children}: {children: React.ReactNode}) => {
   return (
-    <div>
+    <>
       <Header />
-      {children}
+      <div className='mt-20 md:mt-10'>
+        {children}
+      </div>
       <Footer />
-    </div>
+    </>
   )
 }
 

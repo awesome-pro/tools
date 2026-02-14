@@ -7,6 +7,7 @@ import {
   Braces,
   Link2,
   CircleDashed,
+  CaseSensitive,
   ArrowRight,
   Zap,
   ShieldCheck,
@@ -54,6 +55,15 @@ const tools = [
     icon: CircleDashed,
     color: "text-violet-600 dark:text-violet-400",
     bg: "bg-violet-500/10",
+  },
+  {
+    name: "LinkedIn Text Formatter",
+    description:
+      "Bold, italic, underline & more — format text for LinkedIn posts and comments.",
+    href: "/linkedin-text-formatter",
+    icon: CaseSensitive,
+    color: "text-sky-600 dark:text-sky-400",
+    bg: "bg-sky-500/10",
   },
 ];
 
