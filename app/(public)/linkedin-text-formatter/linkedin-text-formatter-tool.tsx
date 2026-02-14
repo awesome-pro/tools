@@ -67,7 +67,7 @@ export default function LinkedInTextFormatterTool() {
               }`}
             >
               <span className="text-base leading-none">{fmt.preview}</span>
-              <span className="text-[10px] text-muted-foreground">
+              <span className="text-[10px]">
                 {fmt.label}
               </span>
             </button>

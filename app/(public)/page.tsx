@@ -117,10 +117,9 @@ const values = [
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-background">
+    <main>
       <Hero />
 
-      {/* Tools Grid */}
       <section
         id="tools"
         className="border-t bg-muted/30 py-20 sm:py-24"
@@ -163,7 +162,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* How It Works */}
       <section className="border-t py-20 sm:py-24">
         <div className="mx-auto max-w-4xl px-4">
           <div className="text-center">
@@ -196,7 +194,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Why NewTools */}
       <section className="border-t bg-muted/30 py-20 sm:py-24">
         <div className="mx-auto max-w-4xl px-4">
           <div className="text-center">
@@ -229,8 +226,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CTA */}
       <CTA />
-    </div>
+    </main>
   );
 }

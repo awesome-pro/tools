@@ -1,6 +1,7 @@
 import { Button } from './ui/button'
 import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
+import { FaGithub } from 'react-icons/fa'
 
 const CTA = () => {
   return (
@@ -12,14 +13,19 @@ const CTA = () => {
           <p className="mt-3 text-sm text-muted-foreground">
             No sign-up. No install. Just pick a tool and go.
           </p>
-          <div className="mt-8">
-            <Button asChild size="lg" className="gap-2 rounded-full px-6">
-              <Link href="#tools">
-                Get Started
-                <ArrowRight className="h-4 w-4" />
-              </Link>
-            </Button>
-          </div>
+           <div className="mt-10 flex flex-col gap-3 items-center justify-center md:flex-row">
+          <Button asChild size="lg" className="gap-2 rounded-full px-6 w-full md:w-48">
+            <Link href="#tools">
+              Browse Tools
+              <ArrowRight className="h-4 w-4" />
+            </Link>
+          </Button>
+           <Button asChild variant="outline" className='rounded-full w-full md:w-48'>
+            <Link href="https://github.com/awesome-pro/newtools">
+               Star on GitHub <FaGithub /> 
+            </Link>
+          </Button>
+        </div>
         </div>
       </section>
   )
