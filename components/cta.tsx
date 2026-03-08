@@ -21,7 +21,7 @@ const CTA = () => {
             </Link>
           </Button>
            <Button asChild variant="outline" className='rounded-full w-full md:w-48'>
-            <Link href="https://github.com/awesome-pro/newtools">
+            <Link href="https://github.com/awesome-pro/tools">
                Star on GitHub <FaGithub /> 
             </Link>
           </Button>
