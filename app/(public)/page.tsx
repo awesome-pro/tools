@@ -8,6 +8,7 @@ import {
   Link2,
   CircleDashed,
   CaseSensitive,
+  FileSpreadsheet,
   ArrowRight,
   Zap,
   ShieldCheck,
@@ -64,6 +65,15 @@ const tools = [
     icon: CaseSensitive,
     color: "text-sky-600 dark:text-sky-400",
     bg: "bg-sky-500/10",
+  },
+  {
+    name: "PDF to CSV",
+    description:
+      "Extract tables and structured data from any PDF into a clean CSV file — free or AI-powered.",
+    href: "/pdf-to-csv",
+    icon: FileSpreadsheet,
+    color: "text-red-600 dark:text-red-400",
+    bg: "bg-red-500/10",
   },
 ];
 
